@@ -572,7 +572,7 @@ img[alt="Elden Ring"]{
 }
 
 .skill-card1{
-    background-image: url("img/eldenring-tarnished.jpeg");
+    background-image: url("img/eldenring-tarnished.webp");
     background-size: cover;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
@@ -580,14 +580,14 @@ img[alt="Elden Ring"]{
 }
 
 .skill-card2{
-    background-image: url("img/eldenring-dlc.jpeg");
+    background-image: url("img/eldenring-dlc.webp");
     background-size: cover;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
 }
 
 .skill-card3{
-    background-image: url("img/eldenring-nightreign.jpeg");
+    background-image: url("img/eldenring-nightreign.webp");
     background-size: cover;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
