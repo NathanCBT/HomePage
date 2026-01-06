@@ -1,10 +1,11 @@
 :root {
-    --primary-color: #000000; 
-    --secondary-color: #ffffff;   /*sous titres */
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    /*sous titres */
     --card-bg: #ffffff;
     --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     --border-radius: 15px;
-    --transition: all 0.3s ease; 
+    --transition: all 0.3s ease;
 }
 
 
@@ -80,14 +81,16 @@
     display: block;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     line-height: 1.2;
 }
 
 h1 {
-    font-size: 4rem; 
+    font-size: 4rem;
     letter-spacing: 2px;
 }
 
@@ -104,6 +107,7 @@ h3 {
     margin-bottom: 1rem;
     color: white;
 }
+
 /*
 p {
     margin-bottom: 1rem;
@@ -125,19 +129,28 @@ a:hover {
 }
 
 section {
-max-width: 100%;
-width:100%;
+    max-width: 100%;
+    width: 100%;
     padding: 80px 0;
 }
 
 
-.skills-section{
-    background-color:#003F3E!important;
+.skills-section {
+
+    background-color: #003F3E !important;
 }
 
-.about-section{
-    background-color:#012221;
-    padding:10em 5em 10em 5em;
+#char-cards {
+    padding-left: 10em !important;
+    padding-right: 10em !important;
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    margin-bottom: 5em!important;
+}
+
+.about-section {
+    background-color: #012221;
+    padding: 10em 5em 10em 5em;
 }
 
 header {
@@ -147,7 +160,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .container-nav {
@@ -258,9 +271,9 @@ header {
 }
 
 
-#la-boutique{
-    margin-top:1em;
-    background-color: #1c4a4a!important;
+#la-boutique {
+    margin-top: 1em;
+    background-color: #1c4a4a !important;
 }
 
 
@@ -269,9 +282,10 @@ header {
     padding: 1em;
     box-shadow: var(--shadow);
 }
+
 #competences h2 {
-   display: flex; 
-   justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 #pic-elden {
@@ -284,7 +298,8 @@ header {
     gap: 50px;
     text-align: center;
 }
-.skill-card:hover{
+
+.skill-card:hover {
     transform: scale(1.03);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -304,7 +319,8 @@ header {
     text-align: left;
 }
 */
-.skill-card{
+.skill-card {
+    padding:2em;
     background-color: #025f5d;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius); 
@@ -312,6 +328,10 @@ header {
     height: auto;
 }
 
+.skill-card img{
+    height:100%;
+    width:100%;
+}
 
 
 
@@ -372,65 +392,71 @@ body {
 .contact-info-left {
     flex: 1;
 }
-.contact-item-1:hover{
+
+.contact-item-1:hover {
     transform: scale(1.03);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.contact-item-2:hover{
+
+.contact-item-2:hover {
     transform: scale(1.03);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.contact-item-3:hover{
+
+.contact-item-3:hover {
     transform: scale(1.03);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.contact-item-4:hover{
+
+.contact-item-4:hover {
     transform: scale(1.03);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.contact-item-1{
+
+.contact-item-1 {
     background-color: var(--card-bg);
     padding: 20px 40px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
     margin-bottom: 50px;
-    display: flex; 
-    align-items: center; 
-    gap: 10px;
-}
-.contact-item-2{
-    background-color: var(--card-bg);
-    padding: 20px 40px;
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
-    margin-bottom: 50px;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     gap: 10px;
 }
 
-.contact-item-3{
+.contact-item-2 {
     background-color: var(--card-bg);
     padding: 20px 40px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
     margin-bottom: 50px;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     gap: 10px;
 }
 
-.contact-item-4{
+.contact-item-3 {
     background-color: var(--card-bg);
     padding: 20px 40px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
-    display: flex; 
-    align-items: center; 
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-item-4 {
+    background-color: var(--card-bg);
+    padding: 20px 40px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -537,21 +563,22 @@ body {
     text-decoration: none;
 }
 
-nav *{
-    color:rgb(246, 228, 139)!important;
+nav * {
+    color: rgb(246, 228, 139) !important;
 }
 
-main *{
-    color:white;
+main * {
+    color: white;
 }
 
 
-img[alt="logo"]{
+img[alt="logo"] {
     width: 60px;
-    height:60px;
-    max-width:500px;
+    height: 60px;
+    max-width: 500px;
 }
-body{
+
+body {
     background-image: url(img/elden_ring.webp);
     background-size: cover;
     background-position: center;
@@ -559,11 +586,11 @@ body{
     background-attachment: fixed;
 }
 
-img[alt="Elden Ring"]{
+img[alt="Elden Ring"] {
     margin-top: 15rem;
 }
 
-.skill-card1{
+.skill-card1 {
     background-image: url("img/eldenring-tarnished.jpeg");
     background-size: cover;
     box-shadow: var(--shadow);
@@ -571,14 +598,14 @@ img[alt="Elden Ring"]{
     padding: 80px;
 }
 
-.skill-card2{
+.skill-card2 {
     background-image: url("img/eldenring-dlc.jpeg");
     background-size: cover;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
 }
 
-.skill-card3{
+.skill-card3 {
     background-image: url("img/eldenring-nightreign.jpeg");
     background-size: cover;
     box-shadow: var(--shadow);
@@ -591,7 +618,7 @@ img[alt="Elden Ring"]{
     margin-bottom: -38px;
 }
 
-header{
+header {
     background-color: black;
 }
 
@@ -616,30 +643,32 @@ footer {
 
 
 @media (max-width: 992px) {
-    h1 { 
-        font-size: 3rem; 
-    }
-    .about-section { 
-        flex-direction: column; 
-        text-align: center; 
-    }
-    .skills-grid { 
-        grid-template-columns: 1fr; 
+    h1 {
+        font-size: 3rem;
     }
 
-    .contact-section { 
-        flex-direction: column; 
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-section {
+        flex-direction: column;
     }
 
 
     .galerie-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
 }
 
 
@@ -687,9 +716,9 @@ footer {
     .nav-links a {
         margin: 0;
         font-size: 1rem;
-    } 
-    
-    
+    }
+
+
 
 
     .timeline {
@@ -720,12 +749,13 @@ footer {
         padding: 20px;
     }
 
-    .timeline-date{
+    .timeline-date {
         position: static;
         margin-bottom: 10px;
         display: block;
         font-weight: bold;
     }
+
     .timeline-date-juillet {
         position: static;
         margin-bottom: 10px;
@@ -744,28 +774,28 @@ footer {
         grid-template-columns: 1fr;
         padding: 0 15px;
     }
-    
+
     .galerie-container h3 {
         font-size: 1.3rem;
         padding: 15px;
     }
-    
+
     .image {
         height: 200px;
     }
-    
+
     .description {
         padding: 15px;
         font-size: 0.9rem;
     }
 
     .galerie-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
 
 }
