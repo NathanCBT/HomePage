@@ -185,18 +185,25 @@ a:hover {
 }
 
 .container {
-    max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 section {
+max-width: 100%;
+width:100%;
     padding: 80px 0;
 }
 
 
+.skills-section{
+    background-color:#003F3E!important;
+}
 
-
+.about-section{
+    background-color:#012221;
+    padding:10em 5em 10em 5em;
+}
 
 header {
     background: rgba(255, 255, 255, 0.7);
@@ -316,13 +323,15 @@ header {
 }
 
 
-
+#la-boutique{
+    margin-top:1em;
+    background-color: #1c4a4a!important;
+}
 
 
 .skills-section {
     background-color: var(--card-bg);
-    padding: 60px;
-    border-radius: var(--border-radius);
+    padding: 1em;
     box-shadow: var(--shadow);
 }
 #competences h2 {
@@ -361,9 +370,9 @@ header {
 }
 */
 .skill-card{
-    background-color: var(--card-bg);
+    background-color: #025f5d;
     box-shadow: var(--shadow);
-    border-radius: var(--border-radius);
+    /* border-radius: var(--border-radius); */
     margin: 0;
 }
 
@@ -373,7 +382,7 @@ header {
 .skill-card h3 {
     font-size: 1.2rem;
     margin: 0;
-    color: var(--secondary-color);
+    color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -600,26 +609,50 @@ main *{
     color:white;
 }
 
+
 img[alt="logo"]{
     width: 60px;
     height:60px;
     max-width:500px;
 }
-
-#accueil{
+body{
     background-image: url(img/elden_ring.webp);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-attachment: fixed;
 }
 
 img[alt="Elden Ring"]{
-    margin-top: 18rem;
+    margin-top: 15rem;
 }
 
-main{
-    background-color: rgb(6,22,21);
+.skill-card1{
+    background-image: url("img/eldenring-tarnished.jpeg");
+    background-size: cover;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    padding: 80px;
+}
+
+.skill-card2{
+    background-image: url("img/eldenring-dlc.jpeg");
+    background-size: cover;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+}
+
+.skill-card3{
+    background-image: url("img/eldenring-nightreign.jpeg");
+    background-size: cover;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+}
+
+
+.skill-card img {
+    margin-top: -30px;
+    margin-bottom: -38px;
 }
 
 header{
@@ -630,10 +663,12 @@ footer {
     text-align: center;
     padding: 30px 0;
     font-size: 0.9rem;
-    color: var(--secondary-color);
+    color: white;
     border-top: 1px solid #ddd;
-    margin-top: 50px;
+    background-color: black;
 }
+
+
 
 .footer-social a {
     margin: 0 10px;
