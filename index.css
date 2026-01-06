@@ -90,7 +90,7 @@ html[data-theme="dark"] .timeline-item::after {
     display: block;
     height: 3px;
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: rgb(246, 228, 139);
     border-radius: 2px;
     transition: 0.3s ease;
 }
@@ -115,7 +115,7 @@ html[data-theme="dark"] .timeline-item::after {
     display: none;
     position: absolute;
     right: 0;
-    background-color: var(--card-bg);
+    background-color: white;
     min-width: 160px;
     box-shadow: var(--shadow);
     z-index: 1;
@@ -132,12 +132,12 @@ html[data-theme="dark"] .timeline-item::after {
     background: none;
     cursor: pointer;
     font-family: 'Simonetta', serif;
-    color: var(--text-color);
+    color: white;
     transition: var(--transition);
 }
 
 .dropdown-content button:hover {
-    background-color: var(--primary-color);
+    background-color: white;
     color: white;
 }
 
@@ -161,13 +161,13 @@ h2 {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    color: var(--primary-color);
+    color: white;
 }
 
 h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: var(--primary-color);
+    color: white;
 }
 /*
 p {
@@ -175,7 +175,7 @@ p {
 }
 */
 a {
-    color: var(--primary-color);
+    color: white;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -225,7 +225,7 @@ header {
     margin: 0 15px;
     font-weight: bold;
     font-size: 0.9rem;
-    color: var(--primary-color);
+    color: white;
 }
 
 
@@ -598,9 +598,39 @@ body {
     text-decoration: none;
 }
 
+nav *{
+    color:rgb(246, 228, 139)!important;
+}
 
+main *{
+    color:white;
+}
 
+img[alt="logo"]{
+    width: 60px;
+    height:60px;
+    max-width:500px;
+}
 
+#accueil{
+    background-image: url(img/elden_ring.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img[alt="Elden Ring"]{
+    margin-top: 18rem;
+}
+
+main{
+    background-color: rgb(6,22,21);
+}
+
+header{
+    background-color: black;
+}
 
 footer {
     text-align: center;
