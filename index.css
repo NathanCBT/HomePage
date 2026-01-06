@@ -273,15 +273,15 @@ header {
    display: flex; 
    justify-content: center;
 }
-/*
-.skills-grid img{
-    width: 120px;
+
+#pic-elden {
+    width: 200px;
     height: auto;
-}*/
+}
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
-    gap: 30px;
+    gap: 50px;
     text-align: center;
 }
 .skill-card:hover{
@@ -307,8 +307,9 @@ header {
 .skill-card{
     background-color: #025f5d;
     box-shadow: var(--shadow);
-    /* border-radius: var(--border-radius); */
+    border-radius: var(--border-radius); 
     margin: 0;
+    height: auto;
 }
 
 
