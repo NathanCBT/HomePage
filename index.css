@@ -184,7 +184,7 @@ header {
     background-image: url("img/eldenring-tarnished.webp"); 
 }
 .skill-card2 { 
-    background-image: url("img/eldenring-dlc.webp"); 
+    background-image: url("img/eldenring-dlc.jpeg"); 
 }
 .skill-card3 { 
     background-image: url("img/eldenring-nightreign.webp"); 
@@ -222,6 +222,17 @@ footer {
 
 
 @media (max-width: 992px) {
+    .bg {
+        position: fixed;
+        inset: 0;
+        background-image: url("img/elden_ring.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        transform: translateZ(0);
+    }
+    
     .about-section {
         flex-direction: column;
         text-align: center;
